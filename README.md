@@ -4,7 +4,7 @@
 A comprehensive statistical analysis validating course placement effectiveness...
 
 <p align="center">
-  <img src="C:/Users/Lenovo/Documents/DE/project2/assets/OIP.jpeg" alt="The Key" width="200" />
+  <img src="assets/logo.png" alt="The Key" width="200">
 </p>
 
 # Project Overview

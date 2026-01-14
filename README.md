@@ -1,7 +1,8 @@
 # Student Performance and Aptitude Analysis
 ## The Key English Course Company - Indonesia
 
-A comprehensive statistical analysis validating course placement effectiveness...
+A comprehensive statistical analysis validating the effectiveness of a course placement system using student aptitude scores and performance results.
+
 
 <p align="center">
   <img src="assets/logo.png" alt="The Key" width="200">
@@ -31,10 +32,43 @@ students are placed in appropriate learning environments.
 
 ## Repository Contents
 .
-├── README.md                        # This file
-├── assets                           # Complete Jupyter notebook with all calculations/
-│   └── logo.jpg                     # company logo         
-├── analysis_notebook.ipynb          # analysis report        
-├── report in progress.pdf           # analysis report
-└── requirements.txt                 # Python dependencies
+├── ./README.md                        # This file
+├── ./assets                           # Complete Jupyter notebook with all calculations/
+│   └── ./assets                           # Complete Jupyter notebook with all calculations/logo.jpg                     # company logo         
+├── ./analysis_notebook.ipynb          # analysis report        
+├── ./report in progress.pdf           # analysis report
+└── ./requirements.txt                 # Python dependencies
 
+## 📦 Dataset & Methodology
+
+**Dataset Contents:**
+- `student_combined_data.csv` — combined dataset of students.
+- Other supporting CSV files for raw inputs.
+
+**Key Variables:**
+- `course_level` – course assignment (Foundation, Intermediate, Advanced).  
+- `aptitude_score` – initial aptitude test score.  
+- `performance_score` – final performance outcome.
+
+**Tools & Libraries:**
+- Python (Pandas, SciPy, Statsmodels)  
+- Jupyter Notebook  
+- Matplotlib / Seaborn (visualization)
+
+## 📊 Results Summary
+
+### 🔹 1. Course Enrollment & Performance
+Using group comparisons and statistical tests, we observe distinct performance patterns across course levels, suggesting that placement is associated with student outcomes.
+
+- **Performance trend:** Advanced > Intermediate > Foundation  
+- **Statistical evidence:** ANOVA/Kruskal results indicate significant differences.
+
+### 🔹 2. Aptitude Differences
+Aptitude scores also differ meaningfully between course levels, validating the test’s role in placement.
+
+- **Group means differ significantly** across levels.
+
+### 🔹 3. Aptitude vs Performance Correlation
+Correlation analysis shows a strong positive relationship between initial aptitude scores and final performance outcomes.
+
+- **Correlation coefficient (r)** indicates a strong relationship.

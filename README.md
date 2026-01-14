@@ -31,13 +31,15 @@ students are placed in appropriate learning environments.
 4. What are the implications for course placement and program quality?
 
 ## Repository Contents
+```text
 .
-├── ./README.md                        # This file
-├── ./assets                           # Complete Jupyter notebook with all calculations/
-│   └── ./assets                           # Complete Jupyter notebook with all calculations/logo.jpg                     # company logo         
-├── ./analysis_notebook.ipynb          # analysis report        
-├── ./report in progress.pdf           # analysis report
-└── ./requirements.txt                 # Python dependencies
+├── README.md                 # This file
+├── assets/                   # Assets folder
+│   └── logo.png              # Company logo
+├── analysis_notebook.ipynb   # Analysis notebook
+├── report_in_progress.pdf    # Analysis report
+└── requirements.txt          # Python dependencies
+```
 
 ## 📦 Dataset & Methodology
 

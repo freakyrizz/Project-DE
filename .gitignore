@@ -3,3 +3,15 @@
 data/raw/*.csv
 data/raw/*.xlsx
 data/raw/*.xls
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Virtual environment ---
+venv/
+
+*.csv

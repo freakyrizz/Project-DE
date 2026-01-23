@@ -1,0 +1,30 @@
+Dataset: student_aptitude_data
+Shape: 150 rows x 3 cols
+Duplicate rows: 0
+
+=== Dtypes ===
+        column  dtype
+    student_id  int64
+  course_level object
+aptitude_score  int64
+
+=== Unique counts (top) ===
+        column  nunique
+    student_id      150
+aptitude_score       70
+  course_level        3
+
+=== Missing values (sorted) ===
+                missing_count  missing_pct
+student_id                  0          0.0
+course_level                0          0.0
+aptitude_score              0          0.0
+
+=== Numeric describe ===
+                count   mean        std  min    25%   50%     75%    max
+student_id      150.0  75.50  43.445368  1.0  38.25  75.5  112.75  150.0
+aptitude_score  150.0  44.24  24.228133  9.0  22.00  38.0   65.00   97.0
+
+=== Categorical describe ===
+             count unique       top freq
+course_level   150      3  Advanced   50
